@@ -24,6 +24,7 @@ import com.xlx.healthfood.data.FoodInfo;
 public class FoodListActivity extends ListActivity implements OnItemClickListener, OnClickListener{
 	ListView listView = null;
 	Button searchBtn = null;
+	Button clearBtn = null;
 	EditText searchFoodNameEditText = null;
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -32,7 +33,9 @@ public class FoodListActivity extends ListActivity implements OnItemClickListene
 		searchBtn = (Button) findViewById(R.id.search);
 		searchBtn.setOnClickListener(this);
 		searchFoodNameEditText = (EditText) findViewById(R.id.searchFoodName);
-
+		clearBtn = (Button) findViewById(R.id.clear);
+		clearBtn.setOnClickListener(this);
+		
 		show("");
 		
 		listView = this.getListView();
@@ -51,6 +54,11 @@ public class FoodListActivity extends ListActivity implements OnItemClickListene
 			//ËÑË÷
 			String searchFoodName = searchFoodNameEditText.getText().toString();
 			show(searchFoodName);
+		}else if(paramView.getId() == R.id.clear){
+			//Ë¢ÐÂ
+			searchFoodNameEditText.setText("");
+			show("");
+			
 		}
 		
 	}
