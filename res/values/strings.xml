@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<string name="app_name">健康饮食搭配</string>
+	
+	    
+	<!-- 关于本软件 start-->
+	<string name="abouttitle">关于本软件</string>
+	<string name="text1">本软件提供关于各类食物不适宜搭配的相关信息为收集整理的各种中医资料所得，本软件不保证其科学性以及严谨性，仅供参考之用</string>
+	<string name="title2">版本V1.0.1的改进</string>
+	<string name="text2">1.优化了用户界面\n2.对不适宜同时食用的食物，添加了详细的原因描述。\n3.增加了软件的帮助说明</string>
+	<string name="title3">关于软件中的广告</string>
+	<string name="text3">在使用本软件的过程中，你有时会看到界面的顶端出现广告，由于本软件为免费软件，团队的开发经费主要来源与软件中的嵌入式广告的点击收入，因此对于软件中嵌入的广告，希望用户能够理解和支持。如果你对软件中嵌入广告的内容有任何意见或者建议，欢迎你随时给我们发送邮件。
+	</string>
+	<string name="title4">用户反馈</string>
+	<string name="text4">如果你在使用软件的过程中，有任何意见或者建议，欢迎发送邮件到以下邮箱地址，你宝贵的意见对我们持续改进软件质量有很的大帮助。</string>
+	<string name="email">mobillionapp@gmail.com</string>
+	<!-- 关于本软件 end-->
+	
+	<string name="middle">不宜同食的食物列表</string>
+
+</resources>

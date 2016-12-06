@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="?android:attr/listPreferredItemHeight"
+    android:orientation="vertical" >
+	<ImageView 
+	    android:id="@+id/foodImage" 
+	    android:layout_width="wrap_content"
+	    android:layout_height="fill_parent"
+	    android:src="@drawable/pork"
+	    android:adjustViewBounds="true"
+        android:layout_alignParentTop="true" 
+        android:layout_alignParentBottom="true"
+        android:padding="2dip" 
+	    />
+	<TextView 
+	    android:id="@+id/dietName"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_toRightOf="@id/foodImage"
+	    android:drawableRight="@drawable/expand"
+        android:layout_alignParentRight="true" 
+        android:layout_alignParentBottom="true"
+        android:ellipsize="marquee" 
+        android:textSize="14px" 
+        android:text="@+id/item_content"
+	    />
+	<TextView
+	    android:id="@+id/foodName" 
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true" 
+        android:layout_alignWithParentIfMissing="true" 
+        android:layout_above="@id/dietName"
+        android:gravity="center_vertical"
+        android:singleLine="true"
+        android:textSize="22px"
+        android:text="@+id/listitem_title" 
+	    android:layout_toRightOf="@id/foodImage"
+	    android:textColor="@color/black"
+    	/>
+
+</RelativeLayout>

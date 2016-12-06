@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@color/white">
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@drawable/food_info_title_background" >
+        <Button 
+            android:id="@+id/btn_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_back"
+        android:layout_margin="10dp"
+            />
+    </LinearLayout>
+
+        
+        
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+        
+        <Button 
+	        android:layout_width="100dp"
+	        android:layout_height="100dp"
+	        android:id="@+id/food_detail_button"
+	        android:padding="4dp"
+	        android:layout_margin="10dp"
+	        android:clickable="false"
+            />
+        
+        <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/food_detail_foodDesc"
+        android:maxLines="21"
+        android:layout_toRightOf="@id/food_detail_button"
+            />
+        
+    </RelativeLayout>
+    
+        <TextView 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+            android:background="@drawable/food_info_middle_background"
+            android:text="@string/middle"
+            android:layout_marginTop="15dp"
+            android:layout_gravity="center"
+            android:textColor="@color/white"
+            />
+        
+        <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+        
+            <ImageView 
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:src="@drawable/ex_food_icon"
+                />
+            <TextView 
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:id="@+id/eFoodName"
+		        android:layout_marginLeft="10px"
+		        android:layout_marginRight="10px"
+		        />
+            <TextView 
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:id="@+id/eFoodDesc"
+		        android:textSize="12dip"
+		        android:layout_marginLeft="10px"
+		        />
+    	</LinearLayout>
+        
+    </LinearLayout>
