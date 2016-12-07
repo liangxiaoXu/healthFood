@@ -34,15 +34,15 @@
 	        android:id="@+id/food_detail_button"
 	        android:padding="4dp"
 	        android:layout_margin="10dp"
-	        android:clickable="false"
             />
         
         <TextView 
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/food_detail_foodDesc"
-        android:maxLines="21"
-        android:layout_toRightOf="@id/food_detail_button"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:id="@+id/food_detail_foodDesc"
+	        android:maxLines="21"
+	        android:layout_toRightOf="@id/food_detail_button"
+		    android:layout_margin="10dp"
             />
         
     </RelativeLayout>

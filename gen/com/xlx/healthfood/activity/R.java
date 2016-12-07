@@ -94,6 +94,7 @@ public final class R {
         public static final int scrollViewId=0x7f060000;
         public static final int search=0x7f06000e;
         public static final int searchFoodName=0x7f06000d;
+        public static final int webView=0x7f060013;
     }
     public static final class layout {
         public static final int about=0x7f030000;
@@ -101,6 +102,7 @@ public final class R {
         public static final int food_list_row=0x7f030002;
         public static final int foodlist=0x7f030003;
         public static final int main=0x7f030004;
+        public static final int webview=0x7f030005;
     }
     public static final class string {
         /**  关于本软件 start

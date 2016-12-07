@@ -32,6 +32,12 @@
         <activity android:name=".AboutActivity">
         </activity>
         
+        <!-- WebView -->
+        <activity android:name=".WebActivity">
+        </activity>
+        
     </application>
 
+        <uses-permission android:name="android.permission.INTERNET"/>
+        
 </manifest>
